@@ -1,0 +1,9 @@
+[submodule "lib/catch2"]
+	path = lib/catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb.git
+[submodule "lib/linalg"]
+	path = lib/linalg
+	url = https://github.com/sgorsten/linalg.git
