@@ -13,7 +13,7 @@ public:
 	void DrawScene();
 
 protected:
-	void DrawTriangle(float4 traingle[3]);
+	void DrawTriangle(float2 traingle[3]);
 
 	float EdgeFunction(float2 a, float2 b, float2 c);
 };
