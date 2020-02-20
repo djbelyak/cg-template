@@ -14,7 +14,12 @@ public:
 	void Clear();
 
 protected:
-	void DrawTriangle(float4 triangle[3]);
-	void SetDepth(unsigned short x, unsigned short y, float depth);
+	void DrawTriangle(float3 triangle[3]);
+	bool TestDepth(unsigned short x, unsigned short y, float depth);
 	std::vector<float> depth_buffer;
+
+	float4x4 getWorld() override;
+
+private:
+    std::vector<face> clone(std::vector<face> &what, float dx, float dy, float dz);
 };

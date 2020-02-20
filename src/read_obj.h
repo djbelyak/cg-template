@@ -34,4 +34,6 @@ public:
 
 protected:
 	ObjParser* parser;
+
+    void DrawTriangle(face const &f, color c);
 };
